@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PSPCLPriceForecast.exe" version="1.0.0.5" publicKeyToken="155f6ff0cc528b07" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PSPCLPriceForecast" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PSPCLPriceForecast.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.dll" size="321024">
+      <assemblyIdentity name="MetroFramework" version="1.3.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7L4APFsQVNR89qtka44U/I8lLKSHjkgD3OKw8wRI4Qg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Design.dll" size="16896">
+      <assemblyIdentity name="MetroFramework.Design" version="1.3.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ip6dzNzZ8T5P8zzDsWLser2ULvcNK0zVDM273Sdn/jE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Fonts.dll" size="672256">
+      <assemblyIdentity name="MetroFramework.Fonts" version="1.3.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+IAcGKJfYwk3BaipX+DC/iNeOW6gZpN9Vzp9peYHRMI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PSPCLPriceForecast.exe" size="2925472">
+      <assemblyIdentity name="PSPCLPriceForecast" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ARd+hm/cnpKfhPImoBNBPNyD0FCnPxscScAzckFrLjc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PSPCLPriceForecast.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HP-PC\Anup" issuerKeyHash="554f65cd86645783310c354a2ac0924dc576b766" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>JlVIUA9gXdPu+MssNxpoFb50JQx63YUqIrlzEFPfGtc=</DigestValue></Reference></SignedInfo><SignatureValue>nW8ev6dmWbN8hTHPqCLRKlV22ljFIU7qj6xtJ05zAYzNjGmuDOXZqPFPlkLJzkARqjaBXbHLx3sLt5vLxayNwppNzhQfsXfRdjEVkESD1yjDoV6hjxSqUo0i5BzZrrnnNXjvQFxSX7O3seIK0/KWzmJGMDz1ZpODQMaZllWOeXc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>u23nftMLt1tpFTobyQbT9hzVTeqcq9aO6SrQAKHxGhjd0O4pFDQ6h95HqKAP0ERE5iStKFm2CRUa+87+4X6ltC2Q7Lk6+NfFDOsGM7Du7XtBNeiAvTGNddEGugXiMHe5PmHKvxb4dNFsF3UEj3BNswhNrGW1oVcI1y97hmeNi8s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d71adf531073b9222a85dd7a0c2574be15681a372ccbf8eed35d600f50485526" Description="" Url=""><as:assemblyIdentity name="PSPCLPriceForecast.exe" version="1.0.0.5" publicKeyToken="155f6ff0cc528b07" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HP-PC\Anup</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>FBrBLQfn9gubDO6Q0O2Nb/zto5TMu3cMmzEmletDgLA=</DigestValue></Reference></SignedInfo><SignatureValue>TuQJZOybjShg5JCJ8YSG8mxgeW5r9HMN3qG084i7CFIt6ZV8yyQ/v0UydYDUCc/fJiS69JNeHz7OC1JnmxtA8wYfhYvDaUme5ofHyCkufGfQ3sQ287be56JjLDOcwIbXKQcpP8BLBzWeHuJ3/Fj1ZL3+xbsI5ZbOrcBTqNPnMa4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>u23nftMLt1tpFTobyQbT9hzVTeqcq9aO6SrQAKHxGhjd0O4pFDQ6h95HqKAP0ERE5iStKFm2CRUa+87+4X6ltC2Q7Lk6+NfFDOsGM7Du7XtBNeiAvTGNddEGugXiMHe5PmHKvxb4dNFsF3UEj3BNswhNrGW1oVcI1y97hmeNi8s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQL6TYagxjSqJDSuUjFKJE6zANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQASABQAC0AUABDAFwAQQBuAHUAcDAeFw0xNTAyMTUxMDM5MDBaFw0xNjAyMTUxNjM5MDBaMB8xHTAbBgNVBAMeFABIAFAALQBQAEMAXABBAG4AdQBwMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC7bed+0wu3W2kVOhvJBtP2HNVN6pyr1o7pKtAAofEaGN3Q7ikUNDqH3keooA/QRETmJK0oWbYJFRr7zv7hfqW0LZDsuTr418UM6wYzsO7te0E16IC9MY110Qa6BeIwd7k+Ycq/Fvh00WwXdQSPcE2zCE2sZbWhVwjXL3uGZ42LywIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAD909o2bhae22IjhX2vdw5P9HmMfgchrULgXO/hcL6aEuH8zsEqSVc0sFC2HTU/eagcrcs3iYD1tb68DQBbv2ulHEUzIYx0QlNhh/4N6o6dnNTce7k4Ce8OUYjCACvagi5dAcf83zIL1MmSbFrVNOtARZ/eXaNQS/xkfraG/Cf+k</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
